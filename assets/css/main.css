@@ -1483,3 +1483,28 @@ textarea {
   border-style: solid ;
   border-width: 1px 0px 0px 1px;
 }
+
+.portinner {
+  background:no-repeat center; 
+  background-size:cover; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+  height:100%; 
+  position:relative;
+  padding-top:56.25%;
+}
+
+.porttitle {
+  position:absolute; 
+  bottom:5%;
+  left:7%;
+  color:#fff;
+}
+
+.porttitle:hover{
+  color:#b16c5a;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
